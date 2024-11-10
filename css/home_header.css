@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #2674c7;
+  width: 100vw;
+  height: 64px;
+  display: flex;
+}
+
+
+/* logo styling */
+.logo {
+  margin: 0px 10px;
+}
+.logo a img {
+  width: 150px;
+}
+
+
+/* searchbar styling */
+.searchbar{
+    margin: 15px 15px auto 80px;
+}
+.searchbar #search_textarea{
+    padding: 4px;
+  width: 700px;
+  border-radius: 5px;
+}
+.searchbar #search_button{
+    padding: 3px 8px ;
+  border-radius: 5px;
+  background-color: white;
+}
+
+
+/* rest styling */
+.account , .seller ,.cart,.dotsextra{
+    margin: auto;
+    color: white;}
+.navbar a{
+        color: white;
+        text-decoration: none;
+        margin-left: 5px;
+    }

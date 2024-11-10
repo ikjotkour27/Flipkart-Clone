@@ -1,0 +1,68 @@
+body{
+    background-color: gainsboro;
+}
+/* extra navs */
+.bottonnavextrapics{
+    background-color: white;
+  margin: 8px 13px ;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  height: 120px;
+}
+.bottonnavextrapics div{
+    margin: 0px 15px;
+}
+.bottonnavextrapics div a{
+    text-decoration: none;
+    color: black;
+}
+/* background images */
+.container2{
+    box-sizing: border-box;
+}
+.container2 .bgimages a img{
+width: 100vw;
+}
+/* phones hault */
+.container3{
+    background-color: white;
+margin: 8px 13px ;
+display: flex;
+justify-content: center ;
+align-items: center;
+margin-bottom: 20px;
+}
+.container3 div a {
+    text-decoration: none;
+    color: black;
+}
+.container3 div a img{
+    width: 198px;
+    height: 254px;
+    margin: 10px 20px;
+}
+.container3 div a pre{
+    text-align: center;
+}
+/* electronics hault */
+.container4{
+    background-color: white;
+    display: flex;
+    align-content: center;
+    margin: 8px 13px ;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.container4 div a img{
+    width: 198px;
+height: 254px;
+margin: 10px 20px;
+}
+.container4 div a pre{
+    text-align: center;
+}
+.container4 div a{
+    text-decoration: none;
+    color: black;
+}
